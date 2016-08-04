@@ -1,4 +1,4 @@
-public class Solution {
+public class ArraySearch {
     public boolean Find(int [][] array,int target) {
 		if(array.length==0||array[0].length==0)
 			return false;
