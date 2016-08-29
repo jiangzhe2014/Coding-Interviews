@@ -1,5 +1,5 @@
 import java.util.*;
-public class Solution {
+public class StreamMedian {
 
     ArrayList<Integer> list = new ArrayList<>();
     public void Insert(Integer num) {
