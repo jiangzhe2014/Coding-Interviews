@@ -21,13 +21,13 @@ public class RobotMove {
         }
         return count;
     }
-    
+    //用来判断机器人能否进入坐标(row,col)的方格
     public boolean check(int threshold, int rows, int cols, int row, int col, boolean[] visited){
         if(row>=0 && row<rows && col>=0 && col<cols && getDigitSum(row)+getDigitSum(col) <= threshold && !visited[row*cols+col])
             return true;
         return false;
     }
-    
+    //用来得到一个数字的数位之和
     public int getDigitSum(int number){
         int sum =0;
         while(number >0){
