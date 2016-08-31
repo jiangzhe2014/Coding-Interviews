@@ -8,7 +8,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 
-public class Solution {
+public class ConstructBinaryTree {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         TreeNode root = reConstructBinaryTree(pre, 0, pre.length-1, in, 0, in.length-1);
         return root;
