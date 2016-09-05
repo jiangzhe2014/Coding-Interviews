@@ -10,8 +10,8 @@ class TreeNode {
     }
 }
 
-public class Solution {
-    public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+public class PrintFromToBottom {
+    public ArrayList<Integer> printFromTopToBottom(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         if(root==null)
             return list;
